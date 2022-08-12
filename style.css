@@ -1,0 +1,147 @@
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+h5 {
+    position: relative;
+}
+
+
+main {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container {
+    padding-bottom: 30px;
+}
+
+.card {
+    padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 1000px)  {
+#leftcarda {
+    height: 300px;
+}
+#leftcardb {
+    height: 300px;
+}
+#leftcardc {
+    height: 300px;
+}
+#leftcardd {
+    height: 300px;
+}
+
+}
+
+@media only screen and (max-width: 1200px)  {
+
+    #rightrow {
+        margin-top: 25px;
+    }
+}
+
+
+.svgicon {
+    position:absolute;
+    left: 335px;
+    top: 0;
+ 
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 1200px)  {
+
+    .svgicon {
+        left: 535px;
+        
+     
+    }
+
+}
+
+.profile {
+    display: flex;
+    
+}
+
+.profileimg {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+
+}
+
+.profiletext{
+    margin-left: 20px;
+}
+
+.profileheading {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: -5px;
+}
+
+.profilesubheading {
+    font-size: 11px;
+    font-weight: 500;
+    opacity: 50%;
+}
+
+card-title {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.card-text {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 70%;
+}
+
+#leftcarda {
+    background-color: hsl(263, 55%, 52%);
+    color: hsl(0, 0%, 81%);
+    border: 1px solid #ffffff00;
+}
+
+#leftcardb {
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(0, 0%, 81%);
+    border: 1px solid #ffffff00;
+}
+
+#leftcardc {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(219, 29%, 14%);
+    border: 1px solid #ffffff00;
+}
+
+#leftcardd {
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 81%);
+    border: 1px solid #ffffff00;
+}
+
+#rightcard {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(219, 29%, 14%);
+    padding-bottom: 50px;
+    border: 1px solid #ffffff00;
+}
+
+
+
+
+/* Attribution */
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
